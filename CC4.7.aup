@@ -1,10 +1,10 @@
 <?xml version="1.0" standalone="no" ?>
 <!DOCTYPE project PUBLIC "-//audacityproject-1.3.0//DTD//EN" "http://audacity.sourceforge.net/xml/audacityproject-1.3.0.dtd" >
-<project xmlns="http://audacity.sourceforge.net/xml/" projname="CC4.7_data" version="1.3.0" audacityversion="2.3.2" sel0="1740.8944307285" sel1="1740.8944307285" vpos="0" h="1721.9612212994" zoom="63.4863309625" rate="32000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
+<project xmlns="http://audacity.sourceforge.net/xml/" projname="CC4.7_data" version="1.3.0" audacityversion="2.3.2" sel0="1738.2493818572" sel1="1738.2493818572" vpos="0" h="1729.1712638647" zoom="128.4407187658" rate="32000.0" snapto="off" selectionformat="hh:mm:ss + milliseconds" frequencyformat="Hz" bandwidthformat="octaves">
 	<tags/>
 	<wavetrack name="Raw" channel="2" linked="0" mute="1" solo="0" height="150" minimized="1" isSelected="0" rate="32000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="55807847">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="55758038">
 				<waveblock start="0">
 					<simpleblockfile filename="e0801e5d.au" len="131761" min="-0.42005" max="0.540353" rms="0.066322"/>
 				</waveblock>
@@ -744,13 +744,13 @@
 					<simpleblockfile filename="e0801b8c.au" len="217188" min="-0.478693" max="0.62565" rms="0.067694"/>
 				</waveblock>
 				<waveblock start="55580953">
-					<simpleblockfile filename="e08035f1.au" len="226894" min="-0.537072" max="0.667733" rms="0.067927"/>
+					<simpleblockfile filename="e08017a4.au" len="177085" min="-0.537072" max="0.667733" rms="0.073897"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<wavetrack name="Aiste_lvl" channel="2" linked="0" mute="0" solo="1" height="396" minimized="0" isSelected="0" rate="32000" gain="0.707946" pan="0.0" colorindex="0">
+	<wavetrack name="Aiste_lvl" channel="2" linked="0" mute="0" solo="1" height="396" minimized="0" isSelected="1" rate="32000" gain="1.0" pan="0.0" colorindex="0">
 		<waveclip offset="0.00000000" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="189567">
 				<waveblock start="0">
@@ -1165,14 +1165,6 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="1737.85431701" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="196509">
-				<waveblock start="0">
-					<simpleblockfile filename="e08034b0.au" len="196509" min="-0.687653" max="0.891235" rms="0.118242"/>
-				</waveblock>
-			</sequence>
-			<envelope numpoints="0"/>
-		</waveclip>
 		<waveclip offset="196.99977083" colorindex="0">
 			<sequence maxsamples="262144" sampleformat="262159" numsamples="751384">
 				<waveblock start="0">
@@ -1185,7 +1177,7 @@
 					<simpleblockfile filename="e08017b2.au" len="221543" min="-0.499023" max="0.740845" rms="0.115672"/>
 				</waveblock>
 				<waveblock start="536232">
-					<simpleblockfile filename="e080107b.au" len="215152" min="-0.729858" max="0.788696" rms="0.130927"/>
+					<simpleblockfile filename="e08010d5.au" len="215152" min="-0.729858" max="0.788696" rms="0.128521"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
@@ -1631,16 +1623,24 @@
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
-		<waveclip offset="1732.19382913" colorindex="0">
-			<sequence maxsamples="262144" sampleformat="262159" numsamples="181136">
+		<waveclip offset="1737.50195533" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="157975">
 				<waveblock start="0">
-					<simpleblockfile filename="e0801b84.au" len="181136" min="-0.620117" max="0.891235" rms="0.092787"/>
+					<simpleblockfile filename="e08019a9.au" len="157975" min="-0.651459" max="0.891235" rms="0.11855"/>
+				</waveblock>
+			</sequence>
+			<envelope numpoints="0"/>
+		</waveclip>
+		<waveclip offset="1732.19382913" colorindex="0">
+			<sequence maxsamples="262144" sampleformat="262159" numsamples="169860">
+				<waveblock start="0">
+					<simpleblockfile filename="e08018f1.au" len="169860" min="-0.620117" max="0.891235" rms="0.095817"/>
 				</waveblock>
 			</sequence>
 			<envelope numpoints="0"/>
 		</waveclip>
 	</wavetrack>
-	<labeltrack name="Label Track" numlabels="29" height="106" minimized="0" isSelected="0">
+	<labeltrack name="Label Track" numlabels="29" height="106" minimized="1" isSelected="0">
 		<label t="0.0000000000" t1="5.9239687500" title="Q1"/>
 		<label t="0.0000000000" t1="0.0000000000" title="starts here"/>
 		<label t="5.9239687500" t1="114.8568125000" title="A1"/>
@@ -1669,9 +1669,9 @@
 		<label t="1424.6853990065" t1="1444.8909927565" title="Q11"/>
 		<label t="1444.8909927565" t1="1732.1938291381" title="A11"/>
 		<label t="1604.1451929018" t1="1604.5225148391" title="lag"/>
-		<label t="1737.8543170124" t1="1743.9952232624" title="Outro remarks"/>
+		<label t="1737.5019553329" t1="1742.4386755953" title="Outro remarks"/>
 	</labeltrack>
-	<labeltrack name="VS Label Track" numlabels="26" height="185" minimized="0" isSelected="1">
+	<labeltrack name="VS Label Track" numlabels="26" height="185" minimized="1" isSelected="0">
 		<label t="0.0000000000" t1="0.0000000000" title="there was only a mono track to work with unfortunately. i have however reduced the volume here and reduced the overall gain to -3"/>
 		<label t="0.0000000000" t1="5.8514290000" title="Host is much louder than guest, lets normalize a bit in the mix just turn host down 10%. host being ittle louder is ok, even preferable but the drop in volume particularly here in first 6 seconds is too distinct so match the levels a bit more here if you need to (simply de-amplify host if needed)"/>
 		<label t="197.3696150000" t1="220.4805316009" title="Great catch on it being removable but given length and lead up to Q4 lets keep it in"/>
@@ -1698,5 +1698,10 @@
 		<label t="1735.1063938048" t1="1735.1063938048" title="no cuts here"/>
 		<label t="1735.1063938048" t1="1737.3078794291" title="What happened here, some cut or something? super abrupt and overspeaking"/>
 		<label t="1735.2993534291" t1="1735.2993534291" title="Can remove guest saying &quot;yeah&quot; and just start with host saying &quot;Fantastic&quot; that should fix -d"/>
+	</labeltrack>
+	<labeltrack name="VS_Round 2 Edits_Label Track" numlabels="3" height="159" minimized="0" isSelected="0">
+		<label t="0.0000000000" t1="0.0000000000" title="Lets undo the gain adjustment its muffling the guest, was better last round -d"/>
+		<label t="217.8263950000" t1="218.0324720000" title="De-amplify -10 for this gain level but you&apos;ll see the end result, just match that when you reverse the gain -d"/>
+		<label t="1737.4331070000" t1="1737.5019553329" title="Remove precisely -d"/>
 	</labeltrack>
 </project>
